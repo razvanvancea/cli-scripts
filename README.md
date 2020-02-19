@@ -3,7 +3,7 @@ Prerequisites: Python v3.7.6, Docker, Git
 Setup:
 1. Clone this project in your home directory)
   cd ~/
-  git clone https://github.com/razvanvancea/linux_scripts.git
+  git clone https://github.com/razvanvancea/scripts.git
 2. Open the .bashrc file (e.g. nano ~/.bashrc)
 3. Add the following aliases at the bottom of the file
   alias 'sdocker'='python ~/linux_scripts/startdocker.py'
