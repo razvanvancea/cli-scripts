@@ -30,13 +30,13 @@ source ~/.bashrc
 
 **How to use the scripts?**
 
-For _LINUX/MACOS_ users, to start Zalenium with a desired number of containers via CLI:
+For _LINUX/MACOS_ users, to **start Zalenium** with a desired number of containers via CLI:
 ```html
 szalenium 3
 ```
 The above command will create 3 containers. If you do not pass the argument (3), a message asking for the number will be prompted in the terminal, waiting for your input (it accepts only numbers).
 
-For _LINUX_ users, to start Docker via CLI:
+For _LINUX_ users, to **start Docker** via CLI:
 ```html
 sdocker
 ```
