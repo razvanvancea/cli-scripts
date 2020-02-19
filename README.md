@@ -1,7 +1,7 @@
 # These scripts are shortcuts for your daily tasks - currently available for Linux and MACOS operating systems.
-**Prerequisites:** Python v3, Docker, Git
+## **Prerequisites:** Python v3, Docker, Git
 
-**Installation:**
+## **Installation:**
 1. Clone this project in your home directory
 ```html
   cd ~/
@@ -28,7 +28,7 @@ _NOTE: 'sdocker' and 'szalenium' are only shortcut names. They can be renamed wi
 source ~/.bashrc
 ```
 
-**How to use the scripts?**
+## **How to use the scripts?**
 
 For _LINUX/MACOS_ users, to **start Zalenium** with a desired number of containers via CLI:
 ```html
