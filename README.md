@@ -28,27 +28,17 @@ NOTE: 'sdocker' and 'szalenium' are only shortcut names. They can be renamed wit
 source ~/.bashrc
 ```
 
-How to start the scripts?
+How to use the scripts?
 
-Start Docker, executing via CLI: sdocker
-
-It it will verify if the Docker daemon is already running. If so, it will notify you by a message. Otherwise, it will start the docker service.
-
-Start Zalenium with a desired number of containers, executing via CLI: szalenium 3
-
-The above command will create 3 containers. If you do not pass the second argument (3), a message asking for the number will be prompted in the terminal, waiting for your input (accepts only numbers).
-
+For LINUX/MACOS users, to start Zalenium with a desired number of containers via CLI:
 ```html
-<h2>Example of code</h2>
-
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
+szalenium 3
 ```
+The above command will create 3 containers. If you do not pass the argument (3), a message asking for the number will be prompted in the terminal, waiting for your input (it accepts only numbers).
+
+For LINUX users, to start Docker via CLI:
+```html
+sdocker
+```
+
+It it will verify if the Docker daemon is already running. If so, it will notify you by a console message. Otherwise, it will start the docker service.
