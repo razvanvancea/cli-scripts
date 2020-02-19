@@ -5,10 +5,10 @@ Setup:
   cd ~/
   git clone https://github.com/razvanvancea/scripts.git
 2. Open the .bashrc file (e.g. nano ~/.bashrc)
-3. If you use LINUX: Add the following aliases at the bottom of the file
+3. For LINUX users: Add the following aliases at the bottom of the file
   alias sdocker='python3 ~/scripts/linux/startdocker.py'
   alias szalenium='python3 ~/scripts/linux/startzalenium.py'
-3. If you use MACOS: Add the following aliases at the bottom of the file
+3. For MACOS users: Add the following aliases at the bottom of the file
 alias szalenium='python3 ~/scripts/macos/startzalenium.py'
 
 NOTE: 'sdocker' and 'szalenium' are only shortcut names. They can be renamed with any other name.
