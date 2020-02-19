@@ -13,12 +13,12 @@ nano ~/.bashrc
 ```
 3. For LINUX users: Add the following aliases at the bottom of the file
 ```html
-  alias sdocker='python3 ~/scripts/linux/startdocker.py'
-  alias szalenium='python3 ~/scripts/linux/startzalenium.py'
+  alias sdocker='python3 ~/scripts/linux/start_docker.py'
+  alias szalenium='python3 ~/scripts/linux/start_zalenium.py'
 ```
 3. For MACOS users: Add the following aliases at the bottom of the file
 ```html
-alias szalenium='python3 ~/scripts/macos/startzalenium.py'
+alias szalenium='python3 ~/scripts/macos/start_zalenium.py'
 ```
 NOTE: 'sdocker' and 'szalenium' are only shortcut names. They can be renamed with any other names.
 
