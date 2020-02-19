@@ -20,7 +20,7 @@ nano ~/.bashrc
 ```html
 alias szalenium='python3 ~/scripts/macos/start_zalenium.py'
 ```
-NOTE: 'sdocker' and 'szalenium' are only shortcut names. They can be renamed with any other names.
+_NOTE: 'sdocker' and 'szalenium' are only shortcut names. They can be renamed with any other names._
 
 4. Save and close the file (e.g. for nano editor: CTRL+X, then press Y and Enter)
 5. Reload the .bashrc file, using the following CLI command
@@ -30,13 +30,13 @@ source ~/.bashrc
 
 **How to use the scripts?**
 
-For LINUX/MACOS users, to start Zalenium with a desired number of containers via CLI:
+For _LINUX/MACOS_ users, to start Zalenium with a desired number of containers via CLI:
 ```html
 szalenium 3
 ```
 The above command will create 3 containers. If you do not pass the argument (3), a message asking for the number will be prompted in the terminal, waiting for your input (it accepts only numbers).
 
-For LINUX users, to start Docker via CLI:
+For _LINUX_ users, to start Docker via CLI:
 ```html
 sdocker
 ```
