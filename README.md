@@ -1,4 +1,4 @@
-# These scripts are shortcuts for your daily tasks - currently available only for Linux OS.
+# These scripts are shortcuts for your daily tasks
 Prerequisites: Python v3.7.6, Docker, Git
 Setup:
 1. Clone this project in your home directory)
