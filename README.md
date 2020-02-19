@@ -1,5 +1,5 @@
 # These scripts are shortcuts for your daily tasks - currently available for Linux and MACOS operating systems.
-Prerequisites: Python v3.7.6, Docker, Git
+Prerequisites: Python v3, Docker, Git
 
 Setup:
 1. Clone this project in your home directory)
