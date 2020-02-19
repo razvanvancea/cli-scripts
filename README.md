@@ -21,7 +21,7 @@ nano ~/.bashrc
 ```html
 alias szalenium='python3 ~/scripts/macos/start_zalenium.py'
 ```
-_NOTE: 'sdocker' and 'szalenium' are only shortcut names. They can be renamed with any other names._
+_NOTE: 'sdocker' and 'szalenium' are only aliases. They can be renamed with any other shortcut names._
 
 4. Save and close the file (e.g. for nano editor: CTRL+X, then press Y and Enter)
 5. Reload the .bashrc file, using the following CLI command
