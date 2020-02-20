@@ -43,3 +43,22 @@ sdocker
 ```
 
 It it will verify if the Docker daemon is already running. If so, it will notify you by a console message. Otherwise, it will start the docker service.
+
+## **Weather script**
+Respect the same installation process mentioned above and the step no.3 requires the following commands to the .bashrc file, THEN continue with the 4th and 5th steps.
+```html
+alias wb='python3 ~/scripts/macos/get_weather.py Bucharest'
+alias weather='python3 ~/scripts/macos/get_weather.py' 
+```
+NOTE: 'wb' and 'weather' are aliases. They can be replaced with any other names.
+NOTE: in the first alias, feel free to replace "Bucharest" with your current location.
+
+Return the weather of **your current location** (it will always be the same location) via CLI:
+```html
+wb
+```
+
+Return the weather of a **specific location** via CLI (the location name needs to be _passed as argument_):
+```html
+weather Berlin
+```
