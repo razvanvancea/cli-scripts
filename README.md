@@ -22,6 +22,7 @@ nano ~/.bashrc
 ```html
 alias szalenium='python3 ~/scripts/macos/start_zalenium.py'
 ```
+
 _NOTE: 'sdocker' and 'szalenium' are only aliases. They can be renamed with any other shortcut names._
 
 4. Save and close the file (e.g. for nano editor: CTRL+X, then press Y and Enter)
@@ -59,10 +60,12 @@ alias weather='python3 ~/scripts/get_weather.py'
 ```
 
 **Do not forget** to follow the 4th and 5th step as well.
-_NOTE: 'wb' and 'weather' are aliases. They can be replaced with any other names.
-NOTE: in the first alias, feel free to replace "Bucharest" with your current location._
 
-Return the weather of **your current location** (it will always be the same location) via CLI:
+_NOTE: 'wb' and 'weather' are aliases. They can be replaced with any other names._
+
+_NOTE: in the first alias, feel free to replace "Bucharest" with your current location._
+
+Return the weather of **your current location** (it will always be the same location set in .bashrc) via CLI:
 ```html
 wb
 ```
