@@ -1,4 +1,4 @@
-# These scripts are shortcuts for your daily tasks - currently available for Linux and MACOS operating systems.
+# These scripts make your life easier, automating regular CLI set of tasks
 ## **Docker and Zalenium scripts** - available on Linux and MACOS
 ### **Prerequisites:** 
 Python v3, Docker, Git
@@ -71,3 +71,26 @@ Return the weather of a **specific location** via CLI (the location name needs t
 ```html
 weather Berlin
 ```
+
+## **Schedule automatic shutdown script** - available on Linux
+
+### **Prerequisites**
+Python v2 or v3, Git
+
+### **Installation**
+The same as above, but the step no.3 requires adding to the .bashrc file the following commands.
+
+```html
+alias sd='python ~/scripts/linux/schedule_shutdown.py'
+```
+
+**Do not forget** to follow the 4th and 5th step as well.
+
+_NOTE: 'sd' is only an alias that can be replaced with any other name._
+
+Usage via CLI:
+```html
+sd 45
+```
+In the above example, the computer will be automatically shutted down after 45 minutes.
+The argument represents the number of minutes (e.g. 45). It accepts only numeric values, otherwise it will throw a console error.
