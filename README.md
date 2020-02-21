@@ -98,7 +98,7 @@ sd 45
 In the above example, the computer will be automatically shutted down after 45 minutes.
 The argument represents the number of minutes (e.g. 45). It accepts only numeric values, otherwise an error message will be thrown.
 
-If you want to cancel the shutdown script, type the following command via CLI:
+If you want to **cancel** the shutdown script, use the following CLI command:
 ```html
 shutdown -c
 ```
