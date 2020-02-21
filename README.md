@@ -46,7 +46,7 @@ sdocker
 
 It it will verify if the Docker daemon is already running. If so, it will notify you by a console message. Otherwise, it will start the docker service.
 
-## **Weather script** - available on Linux and MACOS
+## **Get Weather from the CLI script** - available on Linux and MACOS
 
 ### **Prerequisites**
 Python v3, Git
