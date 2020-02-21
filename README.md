@@ -1,8 +1,9 @@
 # These scripts are shortcuts for your daily tasks - currently available for Linux and MACOS operating systems.
-## **Prerequisites:** 
+## **Docker and Zalenium scripts** - available on Linux and MACOS
+### **Prerequisites:** 
 Python v3, Docker, Git
 
-## **Installation:**
+### **Installation:**
 1. Clone this project in your home directory
 ```html
   cd ~/
@@ -29,7 +30,7 @@ _NOTE: 'sdocker' and 'szalenium' are only aliases. They can be renamed with any 
 source ~/.bashrc
 ```
 
-## **How to use the scripts?**
+### **How to use the scripts?**
 
 For _LINUX/MACOS_ users, to **start Zalenium** with a desired number of containers via CLI:
 ```html
@@ -44,14 +45,22 @@ sdocker
 
 It it will verify if the Docker daemon is already running. If so, it will notify you by a console message. Otherwise, it will start the docker service.
 
-## **Weather script**
-Respect the same installation process mentioned above and the step no.3 requires the following commands to the .bashrc file, THEN continue with the 4th and 5th steps.
+## **Weather script** - available on Linux and MACOS
+
+### **Prerequisites**
+Python v3, Git
+
+### **Installation**
+The same as above, but the step no.3 requires adding to the .bashrc file the following commands.
+
 ```html
-alias wb='python3 ~/scripts/macos/get_weather.py Bucharest'
-alias weather='python3 ~/scripts/macos/get_weather.py' 
+alias wb='python3 ~/scripts/get_weather.py Bucharest'
+alias weather='python3 ~/scripts/get_weather.py' 
 ```
-NOTE: 'wb' and 'weather' are aliases. They can be replaced with any other names.
-NOTE: in the first alias, feel free to replace "Bucharest" with your current location.
+
+**Do not forget** to follow the 4th* and 5th step as well.
+_NOTE: 'wb' and 'weather' are aliases. They can be replaced with any other names.
+NOTE: in the first alias, feel free to replace "Bucharest" with your current location._
 
 Return the weather of **your current location** (it will always be the same location) via CLI:
 ```html
