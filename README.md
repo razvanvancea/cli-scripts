@@ -58,7 +58,7 @@ alias wb='python3 ~/scripts/get_weather.py Bucharest'
 alias weather='python3 ~/scripts/get_weather.py' 
 ```
 
-**Do not forget** to follow the 4th* and 5th step as well.
+**Do not forget** to follow the 4th and 5th step as well.
 _NOTE: 'wb' and 'weather' are aliases. They can be replaced with any other names.
 NOTE: in the first alias, feel free to replace "Bucharest" with your current location._
 
