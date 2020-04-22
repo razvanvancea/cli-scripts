@@ -7,7 +7,7 @@ Python v3, Docker, Git
 1. Clone this project in your home directory
 ```html
   cd ~/
-  git clone https://github.com/razvanvancea/scripts.git
+  git clone https://github.com/razvanvancea/cli-scripts.git
 ```
 2. Open the .bashrc file
 ```html
