@@ -85,6 +85,7 @@ The same as above, but the step no.3 requires adding to the .bashrc file the fol
 
 ```html
 alias sd='python ~/cli-scripts/linux/schedule_shutdown.py'
+alias notsd='python ~/cli-scripts/linux/cancel_shutdown_scheduler.py'
 ```
 
 **Do not forget** to follow the 4th and 5th step as well.
@@ -100,5 +101,5 @@ The argument represents the number of minutes (e.g. 45). It accepts only numeric
 
 If you want to **cancel** the shutdown script, use the following CLI command:
 ```html
-shutdown -c
+notsd
 ```
