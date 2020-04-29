@@ -84,7 +84,7 @@ Python v2 or v3, Git
 The same as above, but the step no.3 requires adding to the .bashrc file the following commands.
 
 ```html
-alias sd='python ~/cli-scripts/linux/schedule_shutdown.py'
+alias sd='python ~/cli-scripts/linux/shutdown_scheduler.py'
 alias notsd='python ~/cli-scripts/linux/cancel_shutdown_scheduler.py'
 ```
 
