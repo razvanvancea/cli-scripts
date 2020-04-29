@@ -44,4 +44,3 @@ def verify_zalenium_params():
 
 if __name__ == '__main__':
     verify_zalenium_params()
-
