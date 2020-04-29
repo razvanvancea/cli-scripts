@@ -15,12 +15,12 @@ nano ~/.bashrc
 ```
 3. For LINUX users: Add the following aliases at the bottom of the file
 ```html
-  alias sdocker='python3 ~/scripts/linux/start_docker.py'
-  alias szalenium='python3 ~/scripts/linux/start_zalenium.py'
+  alias sdocker='python3 ~/cli-scripts/linux/start_docker.py'
+  alias szalenium='python3 ~/cli-scripts/linux/start_zalenium.py'
 ```
 3. For MACOS users: Add the following aliases at the bottom of the file
 ```html
-alias szalenium='python3 ~/scripts/macos/start_zalenium.py'
+alias szalenium='python3 ~/cli-scripts/macos/start_zalenium.py'
 ```
 
 _NOTE: 'sdocker' and 'szalenium' are only aliases. They can be renamed with any other shortcut names._
@@ -55,8 +55,8 @@ Python v3, Git
 The same as above, but the step no.3 requires adding to the .bashrc file the following commands.
 
 ```html
-alias wb='python3 ~/scripts/get_weather.py Bucharest'
-alias weather='python3 ~/scripts/get_weather.py' 
+alias wb='python3 ~/cli-scripts/get_weather.py Bucharest'
+alias weather='python3 ~/cli-scripts/get_weather.py' 
 ```
 
 **Do not forget** to follow the 4th and 5th step as well.
@@ -84,7 +84,7 @@ Python v2 or v3, Git
 The same as above, but the step no.3 requires adding to the .bashrc file the following commands.
 
 ```html
-alias sd='python ~/scripts/linux/schedule_shutdown.py'
+alias sd='python ~/cli-scripts/linux/schedule_shutdown.py'
 ```
 
 **Do not forget** to follow the 4th and 5th step as well.
