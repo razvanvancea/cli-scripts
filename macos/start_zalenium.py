@@ -12,7 +12,7 @@ def pull_images_and_start_zalenium(containers):
       -e DOCKER=17.06.2-ce \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -v /tmp/videos:/home/seluser/videos \
-      --privileged dosel/zalenium start --desiredContainers " + containers)
+      --privileged dosel/zalenium start --timeZone 'Europe/Bucharest' --desiredContainers " + containers)
 
 
 def verify_zalenium_params():
