@@ -3,9 +3,8 @@ import os
 
 
 def shut_down(minutes):
-    print(">>> schedule_shutdown.py script started... <<<")
     os.system("shutdown -h " + minutes)
-    print(">>> schedule_shutdown.py finished. This computer is shutting down in exactly " + minutes + " minutes. <<<")
+    print("INFO: This computer is shutting down in " + minutes + " minutes.")
 
 
 def shut_down_params():
